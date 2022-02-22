@@ -3,13 +3,19 @@
     font-family: 'Arvo', serif;
 }
 
-.logo { 
- margin-bottom: -5cm;
- width: 200px;
-}
-    
-.fondo{
+.header{
+    height: 100px;
+    margin: 90px;
+    margin-top: 0%;
     background-color:rgb(78, 197, 226);
+    display: grid;
+    grid-template-rows: 50px;
+    grid-column: 90px 10px 10px 10px 10px;
+}
+.logo{ 
+    margin-top: 0%;
+    width: 150px;
+    margin-left: 5px;
 }
     
 body{
@@ -21,27 +27,38 @@ ul {display: flex;
     position: relative;
     bottom: 130px;
     left: 200px;
-    padding-left: 140px;
+    padding-left: 5px;
     margin: 10%;
-}
-    
+  }
+
 a{
     color: black; padding: 10px;
     font-size: 17px;
 }
-    
-li{
-    list-style-type:none; 
+
+li{  
+    list-style-type:none;
     color: black;
+    padding: 10px;
+    font-size: 17px;
 }
 
-.felices{
+
+
+.menu{
+    font-size: 17px;
+    color: black;
+    margin-left: 10px;
+}
+
+.titulo{
+    font-size: 50px;
     text-align: center;
-    font-size: 40px;
-    padding: 80px;
+    padding: 40px;
+    padding-top: 80px;
     background-color: beige;
-    margin: 50px;
-    border: 8px solid black;
+    margin: 30px;
+    border: 12px solid black;
 }
 
 .opina{
@@ -66,26 +83,88 @@ p{
 }
 
 .redes{
-     width: 80px;
+    width: 60px;
     padding-left: 20px; 
 }
-    
+
 .redes-display{ 
     display: flex;
     flex-direction: row-reverse;
     justify-content:space-between;
     padding: 7px;
     padding-left: 100px;
-    
+
 }
-    
+
 h3{ 
     padding-left: 100px;
-        
+    
 }
-    
-    
+
+
 .pie{
     background-color:rgb(78, 197, 226);
     margin: 0px;
+}
+@media(max-width: 780px){
+   
+    .header{
+        margin: 15px;
+        margin-top: 0%;
+        background-color:rgb(78, 197, 226);
+        height: 50px;
+    }
+    
+    .logo{ 
+        margin-bottom: 13cm;
+        width: 50px;
+    }
+
+    ul {display: flex;
+        flex-direction: row;
+        height: 30px;
+        bottom: 82px;
+        left: 10px;
+        padding-left: 5px;
+        margin: 10%;
+    }
+    
+    li{
+      list-style-type:none;
+      color: black; 
+      font-size: 10px;
+      
+    
+    }
+
+    .menu{
+        font-size: 8px;
+        color: black;
+        margin-left: 10px;
+        
+    }
+    .titulo{
+        font-size: 25px;
+        text-align: center;
+        padding: 6px;
+        padding-top: 22px;
+        background-color: beige;
+        border: 5px solid black;
+    }
+
+    .pareja{
+        width: 200px;
+        padding: 20px;
+        margin-left: 80px;
+    }
+    .fotos{
+        width: 150px;
+        padding: 20px;
+        margin-left: 80px;
+    }
+    p{
+        font-size: 15px;
+        margin-left: 50px;
+    }
+
 }
