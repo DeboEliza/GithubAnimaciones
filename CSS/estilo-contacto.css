@@ -1,0 +1,264 @@
+*{
+    margin: 0px;
+    font-family: 'Arvo', serif;
+}
+.header{
+    height: 100px;
+    margin: 90px;
+    margin-top: 0%;
+    background-color:rgb(78, 197, 226);
+    display: grid;
+    grid-template-rows: 50px;
+    grid-column: 90px 10px 10px 10px 10px;
+}
+
+.logo{ 
+    margin-top: 0%;
+    width: 150px;
+    margin-left: 5px;
+}
+
+
+body{
+    background: rgb(147, 255, 75);
+}
+
+ul {display: flex;
+    flex-direction: row;
+    position: relative;
+    bottom: 130px;
+    left: 200px;
+    padding-left: 5px;
+    margin: 10%;
+  }
+
+a{
+    color: black; padding: 10px;
+    font-size: 17px;
+}
+
+li{  
+    list-style-type:none;
+    color: black;
+    padding: 10px;
+    font-size: 17px;
+}
+
+
+
+.menu{
+    font-size: 17px;
+    color: black;
+    margin-left: 10px;
+}
+
+.titulo{
+    font-size: 50px;
+    text-align: center;
+    padding: 40px;
+    padding-top: 80px;
+    background-color: beige;
+    margin: 30px;
+    border: 12px solid black;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 40% 30%;
+    grid-column-gap: 10px;
+    margin-left: 100px;
+
+}
+
+.formulario{
+    padding: 20px;
+    padding-left: 20px;
+    padding-bottom: 150px;
+    margin-top: 20%;
+    margin-left: 100px;
+}
+.apellido{
+    margin-left: 23%;
+}
+
+.gif{
+    width: 500px;
+    margin-top: 100px;
+    border: 8px solid black;
+    margin-bottom: 100px;
+    margin-left: 160px;
+}
+
+
+.hola{ 
+    padding: 30px;
+    padding-bottom: 5px;
+}
+
+.area{
+    width: 200px;
+    padding: 30px;
+    margin-left:-19px;
+
+}
+
+.redes{
+    width: 60px;
+    padding-left: 20px; 
+}
+
+.redes-display{ 
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content:space-between;
+    padding: 7px;
+    padding-left: 100px;
+
+}
+
+h3{ 
+    padding-left: 100px;
+    
+}
+
+
+.pie{
+    background-color:rgb(78, 197, 226);
+    margin: 0px;
+}
+
+@media(max-width: 780px){
+   
+    .header{
+        margin: 15px;
+        margin-top: 0%;
+        background-color:rgb(78, 197, 226);
+        height: 50px;
+    }
+    
+    .logo{ 
+        margin-bottom: 13cm;
+        width: 50px;
+    }
+    
+    body{
+        background: rgb(147, 255, 75);
+    }
+    
+
+    ul {display: flex;
+        flex-direction: row;
+        height: 30px;
+        bottom: 82px;
+        left: 10px;
+        padding-left: 5px;
+        margin: 10%;
+    }
+    
+    li{
+      list-style-type:none;
+      color: black; 
+      font-size: 10px;
+      
+    
+    }
+
+    .menu{
+        font-size: 8px;
+        color: black;
+        margin-left: 10px;
+        
+    }
+
+    .titulo{
+        font-size: 25px;
+        text-align: center;
+        padding: 6px;
+        padding-top: 22px;
+        background-color: beige;
+        border: 5px solid black;
+    }
+    
+    .grid{
+        display: grid;
+        grid-template-columns: 80%;
+        grid-column-gap: 10px;
+        margin-left: 20px;
+    }
+
+    .formulario{
+        padding: 0px;
+        padding-left: 20px;
+        padding-bottom: 0px;
+        margin-top: 5%;
+        margin-left: 50px;
+    }
+
+    .lista{
+        text-align: left;
+        font-size: 30px;
+        padding: 10px;
+        background-color: rgb(205, 255, 220);
+        margin-top: 50px;
+    
+    }
+
+    .area{
+        width: 200px;
+        padding: 5px;
+        margin-left: -37px;
+    
+    }
+
+    a{ 
+        color: black;
+        font-size: 5px;
+     
+    }
+
+    .formato{ 
+        font-size: 10px;
+        text-align: center;
+        padding: 6px;
+        padding-top: 22px;
+        background-color: beige;
+        border: 5px solid black;
+    }
+
+    .gif {
+        width: 226px;
+        margin-top: -461px;
+        border: 8px solid black;
+        margin-bottom: -174px;
+        margin-left: 41px;
+    }
+    
+    
+    .redes{
+        width: 40px;
+        padding-left: 20px; 
+    }
+    
+    .redes-display{ 
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content:space-between;
+        padding: 7px;
+        padding-left: 100px;
+    
+    }
+    
+    h3{ 
+        padding-left: 17px;
+        
+    }
+    
+    
+    .pie{
+        background-color:rgb(78, 197, 226);
+        margin: 0px;
+        margin-bottom: 10px;
+        margin-top: 300px;
+    }
+    
+}

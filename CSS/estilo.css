@@ -1,0 +1,248 @@
+*{ 
+    margin: 0px;
+    font-family: 'Arvo', serif;
+}
+
+.header{
+    height: 100px;
+    margin: 100px;
+    margin-top: 0%;
+    background-color:rgb(78, 197, 226);
+    display: grid;
+    grid-template-rows: 50px;
+    grid-column: 100px 10px 10px 10px 10px;
+}
+
+.logo{ 
+    margin-top: 0%;
+    width: 150px;
+    margin-left: 5px;
+}
+
+body{
+    background: rgb(147, 255, 75);
+}
+
+ul {display: flex;
+  flex-direction: row;
+  position: relative;
+  bottom: 130px;
+  left: 200px;
+  padding-left: 100px;
+  margin: 10%;
+}
+
+li{  
+    list-style-type:none;
+    color: black;
+    padding: 10px;
+    font-size: 17px;
+  
+}
+
+.menu{
+    font-size: 17px;
+    color: black;
+    margin-left: 10px;
+}
+
+
+.paisaje-logo{
+    display: block;
+    margin: auto;
+    width: 300px;
+    border: 10px solid black;
+}
+
+.texto_paneles{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 30px;
+    padding: 30px;
+}
+
+.paneles{ 
+    width: 300px;
+    padding: 50px;
+    height: 0.5 cm;
+}
+.primerTexto{
+    padding-top: 40%;
+    margin-left: 25%;
+    
+}
+.fotos-de-paneles{ display: grid;
+    grid-template-columns: 25% 25% 25%; 
+    grid-template-rows: 200px 200px 200px;
+    grid-column-gap:10%;
+   
+}
+
+.formato{ 
+    font-size: 50px;
+    text-align: center;
+    padding: 40px;
+    padding-top: 80px;
+    background-color: beige;
+    margin: 30px;
+    border: 12px solid black;
+    
+}
+
+.texto_mariposa{
+    color: black;
+    font-size: 35px;
+    text-align: center;
+    padding: 30px;
+    padding-bottom: 250px;
+}
+
+.redes{
+    width: 60px;
+    padding-left: 20px; 
+}
+
+.redes-display{ 
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content:space-between;
+    padding: 7px;
+    padding-left: 100px;
+
+}
+
+h3{ 
+    padding-left: 100px;
+    
+}
+
+
+.pie{
+    background-color:rgb(78, 197, 226);
+    margin: 0px;
+}
+
+@media (max-width: 780px){
+   
+    .header{
+        margin: 15px;
+        margin-top: 0%;
+        background-color:rgb(78, 197, 226);
+        height: 50px;
+    
+    }
+    
+    .logo{ 
+        margin-bottom: 13cm;
+        width: 50px;
+    }
+    
+    body{
+        background: rgb(147, 255, 75);
+    }
+    
+
+    ul {display: flex;
+        flex-direction: row;
+        height: 30px;
+        bottom: 82px;
+        left: 10px;
+        padding-left: 5px;
+        margin: 10%;
+    }
+    
+    li{
+      list-style-type:none;
+      color: black; 
+      font-size: 10px;
+      
+    
+    }
+
+    .menu{
+        font-size: 8px;
+        color: black;
+        margin-left: 10px;
+        
+    }
+    
+
+    .lista{
+        text-align: left;
+        font-size: 30px;
+        padding: 10px;
+        background-color: rgb(205, 255, 220);
+        margin-top: 50px;
+    
+    }
+
+    .formato{ 
+        font-size: 25px;
+        text-align: center;
+        padding: 6px;
+        padding-top: 22px;
+        background-color: beige;
+        border: 5px solid black;
+    }
+    .paisaje-logo{
+        display: block;
+        margin:auto;
+        width: 121px;
+        border: 5px solid black;
+    }
+    
+    .texto_paneles{
+        text-align: center;
+        margin-top: -3px;
+        font-size: 15px;
+        padding: 11px;
+    }
+
+    .paneles{ 
+        width: 215px;
+        padding: 50px;
+    }
+
+    .fotos-de-paneles{ display: grid;
+        grid-template-columns: 75%;
+        grid-template-rows: 200px 200px 200px 200px;
+        grid-column-gap:10%;
+       
+    }
+    
+    .texto_mariposa{
+        color: black;
+        font-size: 35px;
+        text-align: center;
+        padding: 30px;
+        padding-bottom: 250px;
+    }
+    
+    .redes{
+        width: 40px;
+        padding-left: 20px; 
+    }
+    
+    .redes-display{ 
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content:space-between;
+        padding: 7px;
+        padding-left: 100px;
+    
+    }
+    
+    h3{ 
+        padding-left: 100px;
+        
+    }
+    
+    
+    .pie{
+        background-color:rgb(78, 197, 226);
+        margin: 0px;
+    }
+    
+}
+
+

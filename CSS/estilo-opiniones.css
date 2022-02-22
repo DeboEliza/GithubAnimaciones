@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+    font-family: 'Arvo', serif;
+}
+
+.logo { 
+ margin-bottom: -5cm;
+ width: 200px;
+}
+    
+.fondo{
+    background-color:rgb(78, 197, 226);
+}
+    
+body{
+    background: rgb(147, 255, 75);
+}
+    
+ul {display: flex;
+    flex-direction: row;
+    position: relative;
+    bottom: 130px;
+    left: 200px;
+    padding-left: 140px;
+    margin: 10%;
+}
+    
+a{
+    color: black; padding: 10px;
+    font-size: 17px;
+}
+    
+li{
+    list-style-type:none; 
+    color: black;
+}
+
+.felices{
+    text-align: center;
+    font-size: 40px;
+    padding: 80px;
+    background-color: beige;
+    margin: 50px;
+    border: 8px solid black;
+}
+
+.opina{
+    width: 100px;
+    margin-left: 400px;
+    padding: 50px;
+}
+
+.pareja{
+    width: 250px;
+    padding: 20px;
+}
+.fotos{
+    width: 250px;
+    padding: 20px;
+}
+p{
+    font-size: 20px;
+}
+.palabras{
+    padding-bottom: 200px;
+}
+
+.redes{
+     width: 80px;
+    padding-left: 20px; 
+}
+    
+.redes-display{ 
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content:space-between;
+    padding: 7px;
+    padding-left: 100px;
+    
+}
+    
+h3{ 
+    padding-left: 100px;
+        
+}
+    
+    
+.pie{
+    background-color:rgb(78, 197, 226);
+    margin: 0px;
+}
