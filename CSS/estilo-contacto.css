@@ -22,7 +22,7 @@
 .logo:hover {
     height: 200px; width: 200px;
     padding: 20px;
-    background-color: cyan;
+    background-color: rgb(21, 218, 47);
 }
 
 
@@ -41,8 +41,9 @@ ul {display: flex;
 
 a{
     color: black;
-    padding: 10px;
+    padding: 5px;
     font-size: 17px;
+    padding-left: 0px;
 }
 
 li{  
@@ -73,10 +74,10 @@ li:hover {
     text-align: center;
     padding: 40px;
     padding-top: 80px;
-    background-color: beige;
+    background-image: radial-gradient(rgb(255, 102, 0),white, rgb(235, 204, 29));
     margin: 30px;
-    border: 12px solid black;
-    animation-duration: 4s;
+    border: 8px solid black;
+    animation-duration: 5s;
     animation-name: aparecer;
     animation-iteration-count:two;
 }
@@ -87,7 +88,7 @@ li:hover {
     100% {
       opacity: 1;
     }
-}
+ }
 
 .grid{
     display: grid;
@@ -113,7 +114,18 @@ li:hover {
     margin-top: 100px;
     border: 8px solid black;
     margin-bottom: 100px;
-    margin-left: 160px;
+    margin-left: 100px;
+    animation-name: gif;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 5s;
+}
+
+@keyframes gif {
+   50% {
+    transform: translateX(30px);
+   }
+   
 }
 
 
@@ -132,6 +144,14 @@ li:hover {
 .redes{
     width: 60px;
     padding-left: 20px; 
+    width: 50px;
+    height: 50px;
+    background-color: rgba(238, 223, 16, 0.9);
+    border: solid 1px;
+  } 
+.redes:hover {
+    padding: 20px;
+    transform: skewY(25deg)
 }
 
 .redes-display{ 
@@ -166,6 +186,7 @@ h3{
     .logo{ 
         margin-bottom: 13cm;
         width: 50px;
+        height: 50px;
     }
     
     body{

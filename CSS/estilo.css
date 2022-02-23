@@ -23,7 +23,7 @@
 .logo:hover {
     height: 200px; width: 200px;
     padding: 20px;
-    background-color: cyan;
+    background-color:  rgb(21, 218, 47);
  }
 
      
@@ -69,9 +69,9 @@ li:hover {
     width: 300px;
     border: 10px solid black;
     animation-name: paisaje-logo;
-    animation-iteration-count: 3;
+    animation-iteration-count: 1;
     animation-timing-function: ease-in;
-    animation-duration: 10s;
+    animation-duration: 5s;
 }
 
 @keyframes paisaje-logo {
@@ -81,10 +81,9 @@ li:hover {
    50% {
        transform: translateY(50);
    }
- 100% {
-   transform: scale(2,2);
- }
-
+  100%{ 
+      transform:rotate(360deg);
+  }
 }
 
 .texto_paneles{
@@ -98,6 +97,14 @@ li:hover {
     width: 300px;
     padding: 50px;
     height: 0.5 cm;
+    width: 200px; height: 200px;
+    transition: all 2s;
+    margin-left: 50px;
+}
+.paneles:hover {
+    height: 200px; width: 200px;
+    padding: 40px;
+    background-color: rgb(202, 236, 235);
 }
 .primerTexto{
     padding-top: 40%;
@@ -187,6 +194,7 @@ h3{
     .logo{ 
         margin-bottom: 13cm;
         width: 50px;
+        height: 50px;
     }
     
     body{
