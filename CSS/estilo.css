@@ -7,7 +7,7 @@
     height: 100px;
     margin: 100px;
     margin-top: 0%;
-    background-color:rgb(78, 197, 226);
+    background-image: radial-gradient(rgb(255, 102, 0),white);
     display: grid;
     grid-template-rows: 50px;
     grid-column: 100px 10px 10px 10px 10px;
@@ -17,10 +17,19 @@
     margin-top: 0%;
     width: 150px;
     margin-left: 5px;
+    width: 100px; height: 100px;
+    transition: all 2s;
 }
+.logo:hover {
+    height: 200px; width: 200px;
+    padding: 20px;
+    background-color: cyan;
+ }
+
+     
 
 body{
-    background: rgb(147, 255, 75);
+    background-image: linear-gradient(to left, rgb(102, 219, 102),yellow,blue) ;
 }
 
 ul {display: flex;
@@ -37,9 +46,16 @@ li{
     color: black;
     padding: 10px;
     font-size: 17px;
-  
-}
+    width: 100px; height: 100px;
+    transition: all 2s;
+}       
 
+li:hover {
+    height: 200px; width: 200px;
+    padding: 10px;
+    background-color: rgb(220, 231, 231);
+}
+     
 .menu{
     font-size: 17px;
     color: black;
@@ -86,8 +102,19 @@ li{
     background-color: beige;
     margin: 30px;
     border: 12px solid black;
-    
+    animation-duration: 4s;
+    animation-name: aparecer;
+    animation-iteration-count:two;
 }
+ @keyframes aparecer {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+ }
+ 
 
 .texto_mariposa{
     color: black;
@@ -118,7 +145,7 @@ h3{
 
 
 .pie{
-    background-color:rgb(78, 197, 226);
+    background-image: linear-gradient( blue,green);
     margin: 0px;
 }
 
@@ -138,7 +165,7 @@ h3{
     }
     
     body{
-        background: rgb(147, 255, 75);
+        background-image: linear-gradient(to left, rgb(102, 219, 102),yellow,blue) ;
     }
     
 
@@ -203,6 +230,11 @@ h3{
         padding: 50px;
     }
 
+    .primerTexto{
+        padding-top: 21px;
+        margin-left: 76px;
+    } 
+
     .fotos-de-paneles{ display: grid;
         grid-template-columns: 75%;
         grid-template-rows: 200px 200px 200px 200px;
@@ -239,7 +271,7 @@ h3{
     
     
     .pie{
-        background-color:rgb(78, 197, 226);
+        background-image: linear-gradient( blue,green);
         margin: 0px;
     }
     

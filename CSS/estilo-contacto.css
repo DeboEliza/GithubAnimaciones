@@ -6,7 +6,7 @@
     height: 100px;
     margin: 90px;
     margin-top: 0%;
-    background-color:rgb(78, 197, 226);
+    background-image: radial-gradient(rgb(255, 102, 0),white);
     display: grid;
     grid-template-rows: 50px;
     grid-column: 90px 10px 10px 10px 10px;
@@ -16,11 +16,18 @@
     margin-top: 0%;
     width: 150px;
     margin-left: 5px;
+    width: 100px; height: 100px;
+    transition: all 2s;
+}
+.logo:hover {
+    height: 200px; width: 200px;
+    padding: 20px;
+    background-color: cyan;
 }
 
 
 body{
-    background: rgb(147, 255, 75);
+    background-image: linear-gradient(to left, rgb(102, 219, 102),yellow,blue) ;
 }
 
 ul {display: flex;
@@ -28,12 +35,13 @@ ul {display: flex;
     position: relative;
     bottom: 130px;
     left: 200px;
-    padding-left: 5px;
+    padding-left: 100px;
     margin: 10%;
   }
 
 a{
-    color: black; padding: 10px;
+    color: black;
+    padding: 10px;
     font-size: 17px;
 }
 
@@ -42,6 +50,14 @@ li{
     color: black;
     padding: 10px;
     font-size: 17px;
+    width: 100px; height: 100px;
+    transition: all 2s;
+}       
+
+li:hover {
+    height: 200px; width: 200px;
+    padding: 10px;
+    background-color: rgb(220, 231, 231);
 }
 
 
@@ -60,6 +76,17 @@ li{
     background-color: beige;
     margin: 30px;
     border: 12px solid black;
+    animation-duration: 4s;
+    animation-name: aparecer;
+    animation-iteration-count:two;
+}
+ @keyframes aparecer {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
 }
 
 .grid{
@@ -123,7 +150,7 @@ h3{
 
 
 .pie{
-    background-color:rgb(78, 197, 226);
+    background-image: linear-gradient( blue,green);
     margin: 0px;
 }
 
@@ -142,7 +169,7 @@ h3{
     }
     
     body{
-        background: rgb(147, 255, 75);
+        background-image: linear-gradient(to left, rgb(102, 219, 102),yellow,blue) ;
     }
     
 
@@ -167,8 +194,8 @@ h3{
         font-size: 8px;
         color: black;
         margin-left: 10px;
-        
-    }
+    }       
+    
 
     .titulo{
         font-size: 25px;
@@ -255,7 +282,7 @@ h3{
     
     
     .pie{
-        background-color:rgb(78, 197, 226);
+        background-image: linear-gradient( blue,green);
         margin: 0px;
         margin-bottom: 10px;
         margin-top: 300px;
